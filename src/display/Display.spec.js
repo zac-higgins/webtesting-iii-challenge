@@ -1,7 +1,6 @@
 import React from 'react';
 import { render } from '@testing-library/react';
 import '@testing-library/jest-dom/extend-expect';
-
 import Display from './Display'
 
 
@@ -35,9 +34,6 @@ describe("Display", () => {
         const openBtn = getByText("Open");
         expect(openBtn).toHaveClass("green-led")
     })
-
-
-
 
 })
 
